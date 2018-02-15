@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+</head>
+<body>
+	formulario contador que sive para encapsular metodos de entrada de datos del usuario.<br>
+	en el formulario se puede ver: <br>
+	<ol>
+		<li>capturar datos</li>
+		<li>validar lo que se ingresa</li>
+		<li>enviar a proceso</li>
+		<li>Reiniciar la captura</li>
+	</ol>
+	<form action="procesa.html" method="post">
+		<input name="txtNumeroControl" type="texto" placeholder="numero de control" autofocus>
+		<input name="txtClave" type="password" placeholder="clave de acceso" required>
+		<input name="txtPromedio" type="number" placeholder="promedio">
+		<input name="txtFecha" type="date">
+		<input name="txtColor" type="color">
+		<input name="txtCorreo" type="email">
+		<input name="txtBuscar" type="search">
+		<!--dispara la accion del form -->
+   		<input type="submit" value="Enviar">
+		<!-- reinicia los input--> 
+   		<input type="reset" value="Borrar">  
+		<!-- simple boton-->   		
+   		<input type="button" value="Enviar">
+
+
+		</form>
+
+</body>
+</html>
